@@ -1,0 +1,9 @@
+.BlogWrapper {
+  width: 100vw;
+  height: fit-content;
+
+  overflow-y: auto;
+
+  padding: 0px 100px;
+  box-sizing: border-box;
+}

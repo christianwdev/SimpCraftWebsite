@@ -1,14 +1,13 @@
 .topNav {
   width: 100vw;
-  min-height: 80px;
-  height: 80px;
+  height: fit-content;
   background: unset;
 
   display: flex;
   align-items: center;
   
   gap: 25px;
-  padding: 25px;
+  padding: 0px 100px;
 }
 
 .logo {
@@ -32,13 +31,14 @@
 }
 
 .link {
-  font-weight: 600;
+  font-weight: 00;
   color: white;
   cursor: pointer;
 
   border-radius: 6px;
   display: flex;
   gap: 10px;
+  padding: 0px 5px;
   align-items: center;
 
   transition: all .3s;
@@ -55,12 +55,12 @@
 }
 
 .selector {
-  width: 40px;
-  height: 3px;
+  width: 44px;
+  height: 2px;
   border-radius: 3px;
-  background-color: var(--blue);
+  background-color: var(--pink);
   position: absolute;
-  left: -0px;
-  bottom: -25px;
+  left: 0px;
+  bottom: -15px;
   transition: all .3s;
 }

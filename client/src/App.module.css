@@ -4,6 +4,9 @@
   background-image: url('./src/assets/bg.png');
   display: flex;
   flex-direction: column;
+
+  padding: 75px 0px;
+  gap: 50px;
 }
 
 .content {

@@ -1,6 +1,7 @@
 import { Routes, Route } from '@solidjs/router'
 import styles from './App.module.css';
 import TopNav from './components/nav/topnav';
+import Blog from './pages/blog';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       
       <div class={styles.Content}>
         <Routes>
-          <Route path='/' element={<p>Landing</p>}/>
+          <Route path='/' component={<Blog/>}/>
         </Routes>
       </div>
     </div>

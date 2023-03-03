@@ -1,0 +1,16 @@
+.banner-wrapper {
+  width: 100%;
+  height: 210px;
+  
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/src/assets/images/scbanner.png');
+  border-radius: 25px;
+  background-position: center;
+}
+
+.serverip {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  color: #FFFFFF;
+}
